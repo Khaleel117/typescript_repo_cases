@@ -6,7 +6,7 @@ function sensitiveInformationLeakNoncompliant(){
     app.use(
         helmet.referrerPolicy({
             // Noncompliant: sets the policy as no-referrer-when-downgrade.
-            policy: 'no-referrer-when-downgrade'
+            policy: 'no-referrer-when-downgrade' 
         })
     )
 }
