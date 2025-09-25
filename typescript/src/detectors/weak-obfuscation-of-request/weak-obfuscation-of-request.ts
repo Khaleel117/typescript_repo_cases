@@ -4,7 +4,7 @@ function weakObfuscationOfRequestNoncompliant() {
   // Noncompliant: secret is hardcoded.
   const payload = "sss";
   var secret = "secret";
-  jwt.sign(payload, secret);
+  jwt.sign(payload, secret); 
 }
 // {/fact}
 
