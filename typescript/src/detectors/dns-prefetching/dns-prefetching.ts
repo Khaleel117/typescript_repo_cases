@@ -7,7 +7,7 @@ function dnsPrefetchingNoncompliant() {
     app.use(
         helmet.dnsPrefetchControl({
             // Noncompliant: 'allow' is set to 'true'.
-            allow: true
+            allow: true 
         })
     )
 }
