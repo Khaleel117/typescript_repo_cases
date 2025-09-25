@@ -12,7 +12,7 @@ function dnsPrefetchingNoncompliant() {
     )
 }
 // {/fact}
-
+ 
 
 // {fact rule=dns-prefetching@v1.0 defects=0}
 import express, { Express } from 'express'
