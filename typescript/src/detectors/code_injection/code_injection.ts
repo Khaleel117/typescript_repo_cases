@@ -6,7 +6,7 @@ function codeInjectionNoncompliant() {
   app.get(
     "/perform/:action",
     (
-      req: { params: { action: any } },
+      req: { params: { action: any } }, 
       res: { send: (arg0: string) => void },
     ) => {
       const sandbox = {
