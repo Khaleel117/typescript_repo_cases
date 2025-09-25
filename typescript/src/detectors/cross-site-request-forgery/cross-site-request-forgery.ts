@@ -7,7 +7,7 @@ function crossSiteRequestForgeryNoncompliant() {
         // Noncompliant: `sameSite` is set to 'none'.
         res.cookie('cookieName', 'cookieValue', { sameSite: 'none', secure: true })
         res.render("index.html")
-    })
+    }) 
 }
 // {/fact}
 
