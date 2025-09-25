@@ -15,7 +15,7 @@ function sensitiveInformationLeakNoncompliant(){
 
 // {fact rule=sensitive-information-leak@v1.0 defects=0}
 import express, { Express } from 'express'
-import helmet from 'helmet'
+import helmet from 'helmet'  
 var app :Express = express()
 function sensitiveInformationLeakCompliant(){
     app.use(
